@@ -2439,10 +2439,12 @@ body .search-modal .close:hover {
     -webkit-transform: translate3d(0, 10px, 0);
   }
 }
-.scale {
-  animation: scale 2s alternate infinite;
+.dance1 {
+  -webkit-animation: dance1 2s alternate infinite;
+  animation: dance1 2s alternate infinite;
 }
-@-webkit-keyframes scale {
+
+@-webkit-keyframes dance1 {
   0% {
     transform: scale(0.8);
     -webkit-transform: scale(0.8);
@@ -2452,8 +2454,19 @@ body .search-modal .close:hover {
     -webkit-transform: scale(1);
   }
 }
+
+@keyframes dance1 {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .dance2 {
   -webkit-animation: dance2 4s alternate infinite;
+  animation: dance2 4s alternate infinite;
 }
 @keyframes dance2 {
   0% {
