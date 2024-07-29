@@ -158,7 +158,7 @@
                                             <li><a href="https://twitter.com/as2k_digital"><i class="fa fa-twitter"
                                                         style=" color: black; "></i></a></li>
                                             <li><a href="https://www.linkedin.com/in/as2k-digital/"><i
-                                                    class="fa fa-linkedin" style=" color: black; "></i></a></li>
+                                                        class="fa fa-linkedin" style=" color: black; "></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                                 </div>
 
                                 <div class="slider-bottom">
-                                    <a class="readon blue-slide" href="contactus.html">Get Started</a>
+                                    <a class="readon blue-slide" href="#javascript">Get Started</a>
                                 </div>
                             </div>
                         </div>
@@ -416,7 +416,7 @@
                 <div class="container">
                     <div class="sec-title text-center mb-55 md-mb-30 pt-30">
                         <h2 class="title title2">
-                             What We Do
+                            What We Do
                         </h2>
                     </div>
 
@@ -508,7 +508,7 @@
                     </h2>
                 </div>
                 <div class="row industries">
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
+                    <div class="col-sm-12 col-md-4 col-lg-4 program-card">
                         <div class="shadow cards p-3 mb-5 bg-white rounded">
                             <h6>Software QA Testing</h6>
                             <p>Quality Assurance Testing is a platform independent job. If you are new to Information
@@ -519,7 +519,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
+                    <div class="col-sm-12 col-md-4 col-lg-4 program-card">
                         <div class="shadow cards p-3 mb-5 bg-white rounded">
                             <h6>Test Automation Masters Program</h6>
                             <p>Join Canada’s only all-in-one Test Automation Training Program for Beginners. This
@@ -531,54 +531,7 @@
 
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-">
-                        <div class="shadow cards p-3 mb-5 bg-white rounded">
-                            <h6>DevOps AWS Training</h6>
-                            <p>Resolve6 offers the best DevOps AWS training in Brampton and Mississauga, we cover both
-                                individual training courses on the top DevOps tools and also cover a comprehensive 101
-                                skill
-                                development </p>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
-                        <div class="shadow cards p-3 mb-5 bg-white rounded">
-                            <h6>Business Analyst Training</h6>
-                            <p>Our BA Training and Job placement program gets you ready to kick start your career as a
-                                Business
-                                Analyst who can analyze an organization, business domain, systems or processes.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
-                        <div class="shadow cards p-3 mb-5 bg-white rounded">
-                            <h6>Full Stack Developer Training</h6>
-                            <p>Resolve6 offers the best DevOps AWS training in Brampton and Mississauga, we cover both
-                                individual training courses on the top DevOps tools and also cover a comprehensive 101
-                                skill
-                                development</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
-                        <div class="shadow cards p-3 mb-5 bg-white rounded">
-                            <h6>CBAP Certification Training</h6>
-                            <p>Our BA Training and Job placement program gets you ready to kick start your career as a
-                                Business
-                                Analyst who can analyze an organization, business domain, systems or processes.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
-                        <div class="shadow cards p-3 mb-5 bg-white rounded">
-                            <h6>AWS Certification Training</h6>
-                            <p>AWS Certification Training Course Getting AWS certified shows that you have some of the
-                                most
-                                in-demand (and profitable) skills as validated by one of the most recognizable entities
-                                in
-                                cloud
-                                computing.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 program-card">
+                    <div class="col-sm-12 col-md-4 col-lg-4 program-card">
                         <div class="shadow cards p-3 mb-5 bg-white rounded">
                             <h6>Data Sciences and Machine Learning</h6>
                             <p>Data Scientist Training Data Science with Python Online Training will help you to become
@@ -589,11 +542,53 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-flex justify-content-center">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary fs-5 px-4 py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="myForm">
+                                        <div class="mb-3">
+                                            <label for="name">Name</label>
+                                            <input type="text" class="form-control" name="Name" id="name" placeholder="Enter your name">
+                                            <div id="nameError" class="error"></div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email">Email address</label>
+                                            <input type="email" class="form-control" name="Email" id="email" placeholder="name@example.com">
+                                            <div id="emailError" class="error"></div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="location">Location</label>
+                                            <input type="text" class="form-control" name='location' id="location" placeholder="Enter your location">
+                                            <div id="locationError" class="error"></div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
 
         <!-- Contact Section End -->
-        <footer id="rs-footer" class="rs-footer style1 footer-home3-style">
+        <footer id="rs-footer" class="rs-footer style1 footer-home3-style mt-30">
             <div class="footer-top">
                 <div class="container">
                     <div class="row">
@@ -691,6 +686,59 @@
 
     <!-- Search Modal End -->
 
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const myForm = document.getElementById('myForm');
+            const name = document.getElementById('name');
+            const nameError = document.getElementById('nameError');
+            const emailError = document.getElementById('emailError');
+            const location = document.getElementById('location');
+            const locationError = document.getElementById('locationError');
+            const exampleModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+    
+            myForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                let valid = true;
+    
+                // Get the current value of the email field
+                const email = document.getElementById('email').value;
+    
+                // Validate name
+                if (!/^[a-zA-Z\s]+$/.test(name.value)) {
+                    valid = false;
+                    nameError.textContent = 'Name should contain letters and spaces only.';
+                } else {
+                    nameError.textContent = '';
+                }
+    
+                // Validate email (must contain @gmail.com)
+                if (!/@gmail\.com$/.test(email)) {
+                    valid = false;
+                    emailError.textContent = 'Email must be a @gmail.com address.';
+                } else {
+                    emailError.textContent = '';
+                }
+    
+                // Validate location
+                if (!/^[a-zA-Z\s]+$/.test(location.value)) {
+                    valid = false;
+                    locationError.textContent = 'Location should contain only letters.';
+                } else {
+                    locationError.textContent = '';
+                }
+    
+                // If the form is valid, close the modal and then show the alert
+                if (valid) {
+                    exampleModal.hide();
+                    // Delay the alert to ensure it appears after the modal is hidden
+                    setTimeout(() => {
+                        alert('Form submitted successfully!');
+                    }, 300); // Adjust delay if needed
+                    // Here you can also add the code to process the form data
+                }
+            });
+        });
+    </script>
     <!-- modernizr js -->
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
     <!-- jquery latest version -->

@@ -2486,3 +2486,7 @@ body .search-modal .close:hover {
 .industries .cards {
   height: 85%;
 }
+.error {
+  color: red;
+  font-size: 12px;
+}
