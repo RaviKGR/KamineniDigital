@@ -2484,7 +2484,11 @@ body .search-modal .close:hover {
   -webkit-animation: up-down 7s alternate infinite;
 }
 .industries .cards {
-  height: 85%;
+  height: 88%;
+  display: flex;
+}
+.register_btn {
+  display: flex;
 }
 .error {
   color: red;
