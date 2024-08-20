@@ -41,6 +41,12 @@
     <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" > </script>
+    <script type="text/javascript">
+      (function() {
+      emailjs.init("VQn9-1eDTE2bDleOI");
+      })(); 
+      </script>
 
 </head>
 
@@ -531,23 +537,20 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <form id="myForm">
+                                                <form id="myForm" onsubmit="sendemail(event, 1)">
                                                     <div class="mb-3">
-                                                        <label for="name">Name</label>
-                                                        <input type="text" class="form-control" name="Name" id="name"
-                                                            placeholder="Enter your name">
+                                                        <label for="name1">Name</label>
+                                                        <input type="text" class="form-control" name="Name" id="name" placeholder="Enter your name">
                                                         <div id="nameError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="email">Email address</label>
-                                                        <input type="email" class="form-control" name="Email" id="email"
-                                                            placeholder="name@example.com">
+                                                        <label for="email1">Email address</label>
+                                                        <input type="email" class="form-control" name="Email" id="email" placeholder="name@example.com">
                                                         <div id="emailError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="phone">Phone Number</label>
-                                                        <input type="text" class="form-control" name='Phone' id="phone"
-                                                            placeholder="Enter your Phone">
+                                                        <label for="phone1">Phone Number</label>
+                                                        <input type="text" class="form-control" name="Phone" id="phone" placeholder="Enter your Phone">
                                                         <div id="phoneError" class="error"></div>
                                                     </div>
                                                     <div class="modal-footer">
@@ -591,45 +594,20 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <form id="myForm">
+                                                <form id="myForm" onsubmit="sendemail(event, 2)">
                                                     <div class="mb-3">
-                                                        <label for="name">Name</label>
-                                                        <input type="text" class="form-control" name="Name" id="name"
-                                                            placeholder="Enter your name">
+                                                        <label for="name2">Name</label>
+                                                        <input type="text" class="form-control" name="Name" id="name" placeholder="Enter your name">
                                                         <div id="nameError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="email">Email address</label>
-                                                        <input type="email" class="form-control" name="Email" id="email"
-                                                            placeholder="name@example.com">
+                                                        <label for="email2">Email address</label>
+                                                        <input type="email" class="form-control" name="Email" id="email" placeholder="name@example.com">
                                                         <div id="emailError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="phone">Phone Number</label>
-                                                        <input type="text" class="form-control" name='Phone' id="phone"
-                                                            placeholder="Enter your Phone">
-                                                        <div id="phoneError" class="error"></div>
-                                                    </div>
-                                                    <div class="modal-footer">
-                                                        <button type="submit" class="btn btn-primary">Submit</button>
-                                                    </div>
-                                                </form><form id="myForm">
-                                                    <div class="mb-3">
-                                                        <label for="name">Name</label>
-                                                        <input type="text" class="form-control" name="Name" id="name"
-                                                            placeholder="Enter your name">
-                                                        <div id="nameError" class="error"></div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="email">Email address</label>
-                                                        <input type="email" class="form-control" name="Email" id="email"
-                                                            placeholder="name@example.com">
-                                                        <div id="emailError" class="error"></div>
-                                                    </div>
-                                                    <div class="mb-3">
-                                                        <label for="phone">Phone Number</label>
-                                                        <input type="text" class="form-control" name='Phone' id="phone"
-                                                            placeholder="Enter your Phone">
+                                                        <label for="phone2">Phone Number</label>
+                                                        <input type="text" class="form-control" name="PhoneNo" id="phone" placeholder="Enter your Phone">
                                                         <div id="phoneError" class="error"></div>
                                                     </div>
                                                     <div class="modal-footer">
@@ -674,23 +652,20 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                <form id="myForm">
+                                                <form id="myForm" onsubmit="sendemail(event, 3)">
                                                     <div class="mb-3">
-                                                        <label for="name">Name</label>
-                                                        <input type="text" class="form-control" name="Name" id="name"
-                                                            placeholder="Enter your name">
+                                                        <label for="name3">Name</label>
+                                                        <input type="text" class="form-control" name="Name" id="name" placeholder="Enter your name">
                                                         <div id="nameError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="email">Email address</label>
-                                                        <input type="email" class="form-control" name="Email" id="email"
-                                                            placeholder="name@example.com">
+                                                        <label for="email3">Email address</label>
+                                                        <input type="email" class="form-control" name="Email" id="email" placeholder="name@example.com">
                                                         <div id="emailError" class="error"></div>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="phone">Phone Number</label>
-                                                        <input type="text" class="form-control" name='Phone' id="phone"
-                                                            placeholder="Enter your Phone">
+                                                        <label for="phone3">Phone Number</label>
+                                                        <input type="text" class="form-control" name="Phone" id="phone" placeholder="Enter your Phone">
                                                         <div id="phoneError" class="error"></div>
                                                     </div>
                                                     <div class="modal-footer">
@@ -808,25 +783,26 @@
     <!-- Search Modal End -->
 
     <script>
-        document.addEventListener('DOMContentLoaded', (event) => {
-            const myForm = document.getElementById('myForm');
-            const name = document.getElementById('name');
-            const nameError = document.getElementById('nameError');
-            const emailError = document.getElementById('emailError');
-            const phone = document.getElementById('phone');
-            const phoneError = document.getElementById('phoneError');
-            const exampleModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+      // sending email 
+                    
+        function sendemail(event, a){
+                event.preventDefault(); 
+                const form = event.target;
+                const formData = new FormData(form);
+                const name = formData.get('Name');
+                const email = formData.get('Email');
+                const phone = formData.get('Phone') || formData.get('PhoneNo');
     
-            myForm.addEventListener('submit', function (e) {
-                e.preventDefault();
                 let valid = true;
-    
-                // Get the current value of the email field
-                const email = document.getElementById('email').value;
-    
-                if (!/^[a-zA-Z\s]+$/.test(name.value)) {
+                const exampleModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                const nameError = document.getElementById('nameError');
+                const emailError = document.getElementById('emailError');
+                const phoneError = document.getElementById('phoneError');
+                if (!/^[a-zA-Z\s]+$/.test(name)) {
                     valid = false;
                     nameError.textContent = 'Name should contain letters and spaces only.';
+                    console.log("name");
+                    
                 } else {
                     nameError.textContent = '';
                 }
@@ -834,29 +810,41 @@
                 if (!/@gmail\.com$/.test(email)) {
                     valid = false;
                     emailError.textContent = 'Email must be a @gmail.com address.';
+                    console.log("gmail");
                 } else {
                     emailError.textContent = '';
                 }
-                console.log('Phone:', phone.value);
-                // Phone number validation for exactly 10 digits
-                if (!/^\d{10}$/.test(phone.value)) {
+                if (!/^\d{10}$/.test(phone)) {
                     valid = false;
                     phoneError.textContent = 'Phone should be exactly 10 digits.';
+                    console.log("phone");
                 } else {
                     phoneError.textContent = '';
                 }
-    
-                // If the form is valid, close the modal and then show the alert
-                if (valid) {
-                    exampleModal.hide();
-                    // Delay the alert to ensure it appears after the modal is hidden
-                    setTimeout(() => {
-                        alert('Form submitted successfully!');
-                    }, 300); // Adjust delay if needed
-                    // Here you can also add the code to process the form data
+
+                if(valid) {
+                    var templateParams = {
+                        email_id: email,
+                        from_name: name,
+                        phone_no: phone
+                    };
+
+                    emailjs.send('service_okazfqw', 'template_vygsg7q', templateParams)
+                    .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    window.alert("Sent successfully!");
+                    
+                    })
+                    // exampleModal.hide();
+                    form.reset();
+                } else {
+                    console.log("fail");
                 }
-            });
-        });
+                
+            
+
+            
+            }
     </script>
     <!-- modernizr js -->
     <script src="assets/js/modernizr-2.8.3.min.js"></script>
