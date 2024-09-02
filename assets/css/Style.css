@@ -616,7 +616,7 @@ button:focus {
 }
 .full-width-header .rs-header .topbar-area.style2 {
   background-color: unset !important;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 .full-width-header .rs-header .topbar-area.style2 .row-table {
   display: flex;
@@ -2484,7 +2484,7 @@ body .search-modal .close:hover {
   -webkit-animation: up-down 7s alternate infinite;
 }
 .industries .cards {
-  height: 88%;
+  height: 93%;
   display: flex;
 }
 .register_btn {
@@ -2493,4 +2493,16 @@ body .search-modal .close:hover {
 .error {
   color: red;
   font-size: 12px;
+}
+#more {display: none;}
+
+.course-info {
+  margin-bottom: 5px;
+}
+.ProfileImage {
+  width: 45%;
+}
+.rs-slider .nivo-prevNav, 
+.rs-slider .nivo-nextNav {
+    display: none;
 }
