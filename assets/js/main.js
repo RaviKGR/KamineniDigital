@@ -319,14 +319,25 @@
     });
 
     //canvas menu
+    // var navexpander = $('#nav-expander, #nav-expander2');
+    // if(navexpander.length){
+    //     $('#nav-expander, #nav-expander2, #nav-close, #nav-close2, .offwrap').on('click',function(e){
+    //         e.preventDefault();
+    //         $('body').toggleClass('nav-expanded');
+    //     });
+    // }
+
     var navexpander = $('#nav-expander, #nav-expander2');
     if(navexpander.length){
         $('#nav-expander, #nav-expander2, #nav-close, #nav-close2, .offwrap').on('click',function(e){
             e.preventDefault();
             $('body').toggleClass('nav-expanded');
         });
+        
+        $('#mobile-navbar-menu .nav-menu li a').on('click', function(e){
+            $('body').removeClass('nav-expanded');
+        });
     }
-
     // View Course
     $('.course-view-part .view-icons .view-grid').on('click',function(e){
         e.preventDefault();
